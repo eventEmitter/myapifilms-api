@@ -5,7 +5,7 @@
 
 
     module.exports = {
-          host          : 'http://www.myapifilms.com/'
+          host          : 'http://www.myapifilms.com'
         , basePath      : ''
         , backoffStatus : 429
         , backoffTime   : 5

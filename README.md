@@ -35,6 +35,7 @@ Create an instance of the API client with an api key and a rate limit other than
           token: 'myOptionalToken'
         , rateLimit: 30
         , interval: 10
+        , timeout: 20000 // abort requests after 20 seconds
     });
 
 

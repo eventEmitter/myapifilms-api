@@ -1,7 +1,7 @@
 {
       "name"                        : "myapifilms-api"
     , "description"                 : "API Client for myapifilms.com"
-    , "version"                     : "1.0.3"
+    , "version"                     : "1.0.4"
     , "homepage"                    : "https://github.com/eventEmitter/myapifilms-api"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
     , "licence"                     : "mit"
