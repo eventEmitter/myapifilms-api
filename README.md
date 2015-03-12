@@ -58,7 +58,7 @@ You may use all request parameters specified on the [My API Films](http://www.my
 
 A result may look like this:
 
-   {
+    {
         actors: (9):[
             0: {
                 actorId: "nm6604581"
