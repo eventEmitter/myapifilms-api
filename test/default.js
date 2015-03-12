@@ -11,7 +11,7 @@
 
 
 
-	describe('The OMBDAPI', function() {
+	describe('The MyAPIFilms API client', function() {
 		it('should not crash when instantiated', function() {
 			api = new MyAPIFilms();
 		});
