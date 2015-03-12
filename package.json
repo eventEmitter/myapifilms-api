@@ -1,7 +1,7 @@
 {
       "name"                        : "myapifilms-api"
     , "description"                 : "API Client for myapifilms.com"
-    , "version"                     : "1.0.2"
+    , "version"                     : "1.0.3"
     , "homepage"                    : "https://github.com/eventEmitter/myapifilms-api"
     , "author"                      : "Michael van der Weg <michael@joinbox.com> (http://joinbox.com/)" 
     , "licence"                     : "mit"
@@ -20,7 +20,7 @@
         , "ee-event-emitter"        : "0.1.x"
         , "ee-types"                : "0.1.x"
         , "ee-log"                  : "0.3.x"
-        , "restful-api-client"      : "0.3.x"
+        , "restful-api-client"      : "0.4.x"
     }
     , "devDependencies": {
           "mocha"                   : "1.17.x"

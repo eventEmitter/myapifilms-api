@@ -29,11 +29,12 @@ Create an instance of the API client with an api key
 
 
 
-Create an instance of the API client with an api key and a rate limit other than 60 requests / minute.
+Create an instance of the API client with an api key and a rate limit other than 30 requests / 10 seconds.
 
     var api = new MyAPIFilms({
           token: 'myOptionalToken'
-        , rateLimit: 10 // 10 requests / minute
+        , rateLimit: 30
+        , interval: 10
     });
 
 
