@@ -39,16 +39,19 @@ Create an instance of the API client with an api key and a rate limit other than
 
 You may use all request parameters specified on the [My API Films](http://www.myapifilms.com/) website.
 
-    // list movies using promises
-    omdb({title:'manche hunde müssen sterben'}).list().then(function(movie) {
+
+list movies using promises
+
+    api({title:'manche hunde müssen sterben'}).list().then(function(movie) {
         log(movie);
     }).catch(function(err) {
         log(err);
     });
 
 
-    // list a movie using callbacks
-    omdb({
+list a movie using callbacks
+
+    api({
           idIMDB:'tt3838306'
         , actors: 'F'
     }).list(function(err, movie) {
