@@ -1,5 +1,7 @@
 # myapifilms-api
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/eventEmitter/myapifilms-api.svg)](https://greenkeeper.io/)
+
 API Client for myapifilms.com
 
 ## installation
